@@ -1,0 +1,29 @@
+/* Title:      SecretBox Carte Form Style */
+/* Author:     Thibault Le Cornec */
+
+/*+=========================================================+
+//|			Formulaire Carte bancaire			|
+//+=========================================================+*/
+#titre
+{
+	width: 400px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+input
+{
+	width: 250px;
+}
+
+#titulaire, #numero, #date_expiration, #type_cb
+{
+	float: right;
+}
+
+#date_expiration
+{
+	width: 157px;
+	
+}

@@ -1,0 +1,74 @@
+/* Title:      SecretBox Global Forms Style */
+/* Author:     Thibault Le Cornec */
+
+/*+====================================================+
+//|				Commun Formulaires				|
+//+====================================================+*/
+.required
+{
+	font-weight: bold;
+}
+
+table input
+{
+	height: auto;
+	margin-bottom: 5px;
+	font-size: 0.9em;
+}
+
+textarea
+{
+	font-size: 0.9em;
+	width: 400px;
+	height: 85px;
+	max-width: 400px;
+}
+
+label
+{
+	color: #0088cc;
+}
+
+#v-align-sup
+{
+	vertical-align: super;
+	margin-left: 2px;
+}
+
+.aide
+{
+	color: #8b9093;
+}
+
+#submit-save
+{
+	width: 122px;
+	height: 23px;
+	border: 0px;
+	margin-left: 15px;
+	background: transparent url(../../images/BTN-secretbox.png);
+	background-position-x: 122px;
+	background-position-y: 0px;
+}
+
+#submit-save:active
+{
+	background-position-x: 122px;
+	background-position-y: -23px;
+}
+
+#reset
+{
+	width: 122px;
+	height: 23px;
+	border: 0px;
+	background: transparent url(../../images/BTN-secretbox.png);
+	background-position-x: 0px;
+	background-position-y: -46px;
+}
+
+#reset:active
+{
+	background-position-x: 0px;
+	background-position-y: -69px;
+}

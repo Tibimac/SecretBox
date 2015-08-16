@@ -1,0 +1,72 @@
+#notWebKit
+{
+	border: 1px solid #484848;
+	background: #C3C5CC;
+	height: 100px;
+	position: relative;
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#notWebKit #warningWebKit
+{
+	height: 23px;
+	width: 100%;
+	background-image: url('../images/warning.jpg');
+	z-index: 1;
+}
+
+#notWebKit #close-cross
+{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	z-index: 2;
+}
+
+#notWebKit #message
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#notWebKit #message p
+{
+	color: #000;
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-shadow: 0px 1px 0px #e0e2ea;
+}
+
+#notWebKit .fleft
+{
+	float: left;
+}
+
+#notWebKit #chrome p,#safari p
+{
+	color: #000;
+	font-size: 12px;
+	text-shadow: 0px 1px 0px #e0e2ea;
+}
+
+#notWebKit #chrome
+{
+	margin-top: 5px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+#notWebKit #safari
+{
+	margin-top: 5px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+#notWebKit #chrome p:hover, #safari p:hover
+{
+	text-decoration: underline;
+}

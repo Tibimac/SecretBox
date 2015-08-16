@@ -1,0 +1,445 @@
+/* Title:      SecretBox Global Style */
+/* Author:     Thibault Le Cornec */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", Arial;
+	color: #484848;
+	cursor: default;
+	text-decoration: none;
+}
+
+body
+{
+	background-color: #f1f1f1;
+}
+
+img
+{
+	border: none;
+}
+
+a:hover, a:active, a:focus
+{
+	color: #0088cc;
+}
+
+ol, ul, li
+{
+	list-style-type: none;
+}
+
+.empty
+{
+	color: rgb(172, 180, 186);
+	display: block;
+	text-align: center;
+}
+
+.error
+{
+	color: #ec3000;
+}
+
+.nodisplay
+{
+	display: none;
+}
+
+#IE
+{
+	z-index: 10;
+}
+
+#notWebKit
+{
+	z-index: 10;
+}
+
+#bar
+{	
+	position: fixed;
+	height : 45px;
+	z-index: 3;
+	right: 0px;
+	top : 0px;
+	left: 0px;
+	
+	border-top: 1px solid #7B879D;
+	background: 	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#656F81), to(#303845));
+	background :	-moz-linear-gradient(top, #656F81, #303845);
+	border-bottom: 1px solid #101010;
+	-webkit-box-shadow :	0px 2px 10px #000;
+	-moz-box-shadow :		0px 2px 10px #000;
+	box-shadow :			0px 2px 10px #000;
+}
+
+#separator
+{
+	width: 2px;
+	height: 45px;
+	z-index: 4;
+	top: 0px;
+	left: 195px;
+	position: absolute;
+	background-image: url(../images/separator.png);
+}
+
+#sidebar_menu
+{
+	z-index: 4;
+	position: fixed;
+	top: 8px;
+	left:15px;
+}
+
+#menu li
+{
+	float: left;
+	padding-right: 15px;
+}
+
+#menu a
+{
+	display: block;
+	width: 30px;
+	height: 32px;
+}
+
+#menu #Licence
+{
+	background-image: url(../images/BTNMenu.png);
+	background-position: top left;
+}
+
+#menu #Licence:active
+{
+	background-position: bottom left;
+}
+
+#menu #Site
+{
+	background-image: url(../images/BTNMenu.png);
+	background-position-x: -30px;
+	background-position-y: 0px;
+}
+
+#menu #Site:active
+{
+	background-position-x: -30px;
+	background-position-y: 32px;
+}
+
+#menu #Cb
+{
+	background-image: url(../images/BTNMenu.png);
+	background-position-x: 60px;
+	background-position-y: 0px;
+}
+
+#menu #Cb:active
+{
+	background-position-x: 60px;
+	background-position-y: 32px;
+}
+
+#menu #Compte
+{
+	background-image: url(../images/BTNMenu.png);
+	background-position: top right;
+}
+
+#menu #Compte:active
+{
+	background-position: bottom right;
+}
+
+
+#titlebar
+{
+	height : 44px;
+	border-bottom: 1px solid #3b4046;
+}
+
+#titlebar span
+{
+	float: left;
+	line-height: 46px;
+	margin-left: 211px;
+	padding-right: 50px;
+}
+
+#titlebar-titre
+{
+	color: #f2f2f2;
+	font-size: 23px;
+	font-weight: 200;
+	text-shadow: 0px -1px 1px #000;
+}
+
+#titlebar .error
+{
+	font-size: 16px;
+	text-shadow: 0px -1px 1px #000;
+}
+
+#btn-actions
+{
+	margin-left: 50%;
+	margin-right: 50%;
+	
+	width: 150px;
+	height: 27px;
+}
+
+#btn-print
+{
+	border: 0px;
+	width: 40px;
+	height: 27px;
+	
+	background: transparent url(../images/BTNActions.png);
+	background-position: top left;
+	top: 10px;
+	position: absolute;
+	cursor: default;
+}
+
+#btn-print:active
+{
+	background-position: bottom left;
+}
+
+#btn-edit
+{
+	border: 0px;
+	width: 40px;
+	height: 27px;
+	margin-left: 55px;
+	background: transparent url(../images/BTNActions.png);
+	background-position: top center;
+	top: 10px;
+	position:absolute;
+	cursor: default;
+}
+
+#btn-edit:active
+{
+	background-position: bottom center;
+}
+
+#btn-delete
+{
+	border: 0px;
+	width: 40px;
+	height: 27px;
+	margin-left: 110px;
+	background: transparent url(../images/BTNActions.png);
+	background-position: top right;
+	top: 10px;
+	position: absolute;
+	cursor: default;
+}
+
+#btn-delete:active
+{
+	background-position: bottom right;
+}
+
+#nb-elem
+{
+	width: 195px;
+	height: 25px;
+	position: fixed;
+	top: 47px;
+	left: 0px;
+	z-index: 1;
+	
+	background-color: #f1f1f1;
+	border-right: 1px solid #bcc2c7;
+	border-bottom: 1px solid #bcc2c7;
+	
+	text-align: center;
+	font-size: 13px;
+	
+	-webkit-box-shadow : 0px 4px 7px #aaa;
+	-moz-box-shadow : 0px 4px 7px #aaa;
+	box-shadow : 0px 4px 7px #aaa;
+}
+
+#nb-elem p
+{
+	position: relative;
+	top: 5px;
+	height: 19px;
+	width: 195px;
+	border-bottom: solid 1px #fff;
+}
+
+.top-haut
+{
+	top: 47px;
+}
+
+.top-bas
+{
+	top: 73px;
+}
+
+#sidebar_list
+{	
+	height: auto;
+	width:185px;
+	
+	position: fixed;
+	bottom: 25px;
+	left: 0px;
+	z-index: 2;
+	padding : 5px;
+
+	overflow: auto;
+	word-wrap: break-word;
+	
+	background-color: #fff;
+	border-right: 1px solid #bcc2c7;
+	font-size: 14px;
+	
+	-webkit-box-shadow : 0px 4px 7px #aaa;
+	-moz-box-shadow : 0px 4px 7px #aaa;
+	box-shadow : 0px 4px 7px #aaa;
+}
+
+#sidebar_list a
+{
+	display: block;
+	padding: 2px 0px 2px 4px;
+	
+	-webkit-transition-property : color;
+	-webkit-transition-duration : 200ms;
+	
+	-moz-transition-property : color;
+	-moz-transition-duration : 200ms;
+	
+	transition-property : color;
+	transition-duration : 200ms;
+}
+
+
+#sidebar_list .error
+{
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	text-align: center;
+}
+
+#sidebar_list .empty
+{
+	padding: 10px;
+}
+
+
+#toolbar
+{
+	width: 195px;
+	height: 25px;
+	position: fixed;
+	left: 0px;
+	bottom: 0;
+	z-index: 2;
+	
+	background-color: #f1f1f1;
+	text-align: center;
+	font-size: 13px;
+	
+	border-top: 1px solid #bcc2c7;
+	border-right: 1px solid #bcc2c7;
+	
+	-webkit-box-shadow : 0px 6px 7px #aaa;
+	-moz-box-shadow : 0px 6px 7px #aaa;
+	box-shadow : 0px 6px 7px #aaa;
+}
+
+#toolbar a
+{	
+	display: block;
+	height: 100%;
+	width: 195px;
+	line-height: 1.7;
+	
+	border-top: solid 1px #fff;
+	
+	-webkit-transition-property : color;
+	-webkit-transition-duration : 200ms;
+	
+	-moz-transition-property : color;
+	-moz-transition-duration : 200ms;
+	
+	transition-property : color;
+	transition-duration : 200ms;
+}
+
+#toolbar a img
+{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+#content
+{
+	right: 0px;
+	bottom: 0px;
+	left: 196px;
+	top: 47px;
+	position: fixed;
+	z-index: 0;
+	
+	background-color: #f1f1f1;
+	overflow: auto;
+	padding: 15px;
+	font-size: 14px;
+	
+	text-shadow: 0px 1px 1px #fff;
+}
+
+#content a
+{
+	-webkit-transition-property : color, text-shadow;
+	-webkit-transition-duration : 200ms;
+	
+	-moz-transition-property : color, text-shadow;
+	-moz-transition-duration : 200ms;
+	
+	transition-property : color, text-shadow;
+	transition-duration :200ms;
+}
+
+#content a:hover, #content a:active, #content a:focus
+{
+	color: #2d2d2d;
+	text-shadow: 0px 2px 3px #707070;
+}
+
+#content .value
+{
+	margin-bottom: 15px;
+	min-width: 410px;
+}
+
+#content .label
+{
+	color: #0088cc;
+}
+
+#content .error
+{
+	text-shadow: 0px 1px 1px #fff;
+	color: #d53712;
+}
+
+#content .error span 
+{
+	text-decoration: underline;
+}

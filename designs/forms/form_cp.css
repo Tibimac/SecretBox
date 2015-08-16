@@ -1,0 +1,23 @@
+/* Title:      SecretBox Compte Form Style */
+/* Author:     Thibault Le Cornec */
+
+/*+=========================================================+
+//|			Formulaire Comptes Bancaire			|
+//+=========================================================+*/
+#titre
+{
+	width: 400px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+input
+{
+	width: 320px;
+}
+
+#banque_name, #numero, #type_compte
+{
+	float: right;
+}

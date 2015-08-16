@@ -1,0 +1,44 @@
+/* Title:      SecretBox Licence Form Style */
+/* Author:     Thibault Le Cornec */
+
+/*+===================================================+
+//|			Formulaire Licence			|
+//+===================================================+*/
+#titre
+{
+	width: 400px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+#application
+{
+	width: 245px;
+}
+
+#numero
+{
+	width: 245px;
+}
+
+#date_achat
+{
+	width: 130px;
+	margin-right: 4px;
+}
+
+#societe, #url, #nom, #email
+{
+	width: 285px;
+}
+
+#date_achat, #societe, #url, #nom, #email
+{
+	float: right;
+}
+
+#description, #url, #email
+{
+	margin-bottom: 20px;
+}

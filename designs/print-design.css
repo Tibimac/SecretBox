@@ -1,0 +1,47 @@
+/* Title:      SecretBox Global Print Style */
+/* Author:     Thibault Le Cornec*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica";
+	color: #484848;
+	text-decoration: none;
+}
+
+.nodisplay, #nb-elem, #sidebar_list, #toolbar, #IE,#btn-actions, #sidebar_menu
+{
+	display: none;
+}
+
+#titlebar
+{
+	margin-bottom: 10px;
+}
+
+#titlebar-titre
+{
+	color: #484848;
+	font-size: x-large;
+	font-weight: 200;
+}
+
+#content
+{
+	margin-left: 15px;
+}
+
+#content .value
+{
+	display: block;
+	height: auto;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#content .label
+{
+	color: #0088cc;
+	font-size: 14px;
+}

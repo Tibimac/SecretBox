@@ -1,0 +1,36 @@
+/* Title:      SecretBox Site Form Style */
+/* Author:     Thibault Le Cornec */
+
+
+/*+=============================================+
+//|			Formulaire Site			|
+//+=============================================+*/
+#titre
+{
+	width: 400px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+#utilisateur, #password, #url
+{
+	width: 290px;
+	float: right;
+}
+
+#url
+{
+	margin-bottom: 20px;
+}
+
+.aide
+{
+	vertical-align: super;
+}
+
+.info-form
+{
+	color: #8b9093;
+	margin-left: 4px;
+}
